@@ -8,6 +8,11 @@ on:
   push:
     branches:
       - dev
+
+permissions:
+  contents: read
+  packages: write
+
 jobs:
   prepare:
     runs-on: ubuntu-latest
